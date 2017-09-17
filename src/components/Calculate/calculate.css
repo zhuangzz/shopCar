@@ -1,0 +1,78 @@
+.calculate{
+  /*display: flex;*/
+  position: relative;
+}
+.results{
+  width: 435px;
+  line-height: 235px;
+  background-image: url("../images/bgresult_19.jpg");
+  background-size: 700px;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 auto;
+
+
+}
+.result{
+  width: 143px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/*.goods-all{
+  display: flex;
+
+}*/
+.goods-all{
+  background-color: #fff;
+  position: absolute;
+  top: 194px;
+  left: 50%;
+  margin-left: -180px;
+
+}
+.goods-list{
+  display: flex;
+  width: 340px;
+  padding: 10px;
+  border-bottom: 1px solid #e3e9ec;
+
+}
+.goods-title{
+  margin-left: 10px;
+}
+.goods-title h3{
+  color: #f77062;
+}
+.goods-title .goods-price{
+  color:#9c9c9c;
+}
+.calculate-total{
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cal-num{
+  width: 40px;
+  height: 40px;
+  background-color: #fb5c83;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-top: -13px;
+  color:#fff;
+}
+.goods-right{
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.calculate-total span{
+  color:#d0d0d0;
+  display: block;
+  height: 18px;
+  line-height: 13px;
+}

@@ -1,0 +1,29 @@
+.goods{
+
+  background-color: #000;
+  margin-bottom: 200px;
+}
+.goods .good{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.goods .goods-img{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.goods .goods-img button{
+  width: 340px;
+  line-height: 56px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 37px;
+  border : none;
+  outline: none;
+}
+.buy-button{
+  background-image: url("../images/button11_12.jpg");
+}
+.buy-button.buy-buttons{
+background-image: url("../images/button333_14.jpg"); }
